@@ -4,7 +4,8 @@ const controller = require ("../controller/categorias/_CategoriasControllerIndex
 
 router.get("/ListarTodasCategorias", controller.listarTodasCategorias);
 router.get("/ListarUmaCategorias", controller.listarUmaCategoria);
-router.put("/postCategoria", controller.postCategoria);
+router.post("/postCategoria", controller.postCategoria);
+router.delete("/deleteCategoria", controller.deleteCategoria);
 
 // http://localhost:4001/apiMercado/Categorias/ListarTodasCategorias
 
