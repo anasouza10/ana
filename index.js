@@ -1,8 +1,7 @@
 const express = require("express");
-// require("dotenv").config();
+
 const app = express();
 const PORT = 4001
-//const port = process.env.PORTA;
 
 app.use(require("./routes/_routesIndex"));
 
