@@ -7,6 +7,7 @@ router.get("/ListarUmaCategorias", controller.listarUmaCategoria);
 router.post("/postCategoria", controller.postCategoria);
 router.delete("/deleteCategoria", controller.deleteCategoria);
 
+
 // http://localhost:4001/apiMercado/Categorias/ListarTodasCategorias
 
 
